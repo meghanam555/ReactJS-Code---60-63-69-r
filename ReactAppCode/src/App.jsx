@@ -1,7 +1,10 @@
 // import Javascriptusage from "./Components/Javascriptusage"
-// import React1 from "./Components/React1"
+import React1 from "./Components/React1"
 
-import Styling2 from "./Styling/Styling2"
+import ClassComponent from "./Components1/ClassComponent"
+import Functional from "./Components1/Functional"
+
+// import Styling2 from "./Styling/Styling2"
 
 // import ExternalStyling from "./Styling/ExternalStyling"
 
@@ -18,7 +21,9 @@ function App() {
      {/* <Javascriptusage /> */}
      {/* <Styling /> */}
      {/* <ExternalStyling /> */}
-     <Styling2 />
+     {/* <Styling2 /> */}
+     {/* <Functional /> */}
+     <ClassComponent />
     </>
   )
 }
