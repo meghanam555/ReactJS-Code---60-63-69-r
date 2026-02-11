@@ -1,8 +1,13 @@
 // import Javascriptusage from "./Components/Javascriptusage"
-import React1 from "./Components/React1"
+// import React1 from "./Components/React1"
 
-import ClassComponent from "./Components1/ClassComponent"
-import Functional from "./Components1/Functional"
+import { ListRendering } from "./NestedComponents/ListRendering"
+import { NestedComponents } from "./NestedComponents/NestedComponents"
+
+
+
+// import ClassComponent from "./Components1/ClassComponent"
+// import Functional from "./Components1/Functional"
 
 // import Styling2 from "./Styling/Styling2"
 
@@ -23,7 +28,9 @@ function App() {
      {/* <ExternalStyling /> */}
      {/* <Styling2 /> */}
      {/* <Functional /> */}
-     <ClassComponent />
+     {/* <ClassComponent /> */}
+{/* <NestedComponents /> */}
+<ListRendering />
     </>
   )
 }
