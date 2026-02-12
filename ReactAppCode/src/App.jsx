@@ -1,8 +1,10 @@
 // import Javascriptusage from "./Components/Javascriptusage"
 // import React1 from "./Components/React1"
 
-import { ListRendering } from "./NestedComponents/ListRendering"
-import { NestedComponents } from "./NestedComponents/NestedComponents"
+import Image from "./Multimedia/Image"
+
+// import { ListRendering } from "./NestedComponents/ListRendering"
+// import { NestedComponents } from "./NestedComponents/NestedComponents"
 
 
 
@@ -30,7 +32,8 @@ function App() {
      {/* <Functional /> */}
      {/* <ClassComponent /> */}
 {/* <NestedComponents /> */}
-<ListRendering />
+{/* <ListRendering /> */}
+    <Image />
     </>
   )
 }
