@@ -1,7 +1,10 @@
 // import Javascriptusage from "./Components/Javascriptusage"
 // import React1 from "./Components/React1"
 
-import { ClassComponentProps } from "./Props/ClassComponentProps"
+// import ChildrenClassProps from "./Props/ChildrenClassProps"
+import { PropsandState } from "./Props/PropsandState"
+// import ChildrenProps from "./Props/ChildrenProps"
+// import { ClassComponentProps } from "./Props/ClassComponentProps"
 // import FunctionalProps from "./Props/FunctionalProps"
 
 // import { CounterApp } from "./StateManagement/CounterApp"
@@ -48,11 +51,15 @@ function App() {
     {/* <ConstructorBinding /> */}
     {/* <CounterApp /> */}
     {/* <FunctionalProps name="Bunty"/> */}
-    <ClassComponentProps name="Sundra" age={99} designation="Java Developer" place="Mumbai" ishadfood={false} skills={["HTML", "CSS", "JS", "React", "Java", "SQL"]} />
+    {/* <ClassComponentProps name="Sundra" age={99} designation="Java Developer" place="Mumbai" ishadfood={false} skills={["HTML", "CSS", "JS", "React", "Java", "SQL"]} />
     <ClassComponentProps name="Sundri" age= {96} designation="Python Developer" place="Nellore" ishadfood={true} skills={["Java", "Python", "C", "C++" ]} / >
     <ClassComponentProps />
     <ClassComponentProps />
-    <ClassComponentProps />
+    <ClassComponentProps /> */}
+    {/* <ClassComponentProps><h1>Hello Everybody, I'm an Child Component</h1></ClassComponentProps> */}
+      {/* <ChildrenProps><h1>Hello Everybody, I'm an Child Component</h1></ChildrenProps>
+      <ChildrenClassProps><div style={{color:"red", backgroundColor:"yellow", textAlign:"Center", fontSize:"30px"}}><h1>Today is Tuesday</h1></div></ChildrenClassProps> */}
+      <PropsandState name="Bunty" age={99}></PropsandState>
     </>
   )
 }
