@@ -2,7 +2,9 @@
 // import React1 from "./Components/React1"
 
 // import ChildrenClassProps from "./Props/ChildrenClassProps"
+import Onchange from "./Props/Onchange"
 import { PropsandState } from "./Props/PropsandState"
+import ToggleLogin from "./Props/ToggleLogin"
 // import ChildrenProps from "./Props/ChildrenProps"
 // import { ClassComponentProps } from "./Props/ClassComponentProps"
 // import FunctionalProps from "./Props/FunctionalProps"
@@ -59,7 +61,9 @@ function App() {
     {/* <ClassComponentProps><h1>Hello Everybody, I'm an Child Component</h1></ClassComponentProps> */}
       {/* <ChildrenProps><h1>Hello Everybody, I'm an Child Component</h1></ChildrenProps>
       <ChildrenClassProps><div style={{color:"red", backgroundColor:"yellow", textAlign:"Center", fontSize:"30px"}}><h1>Today is Tuesday</h1></div></ChildrenClassProps> */}
-      <PropsandState name="Bunty" age={99}></PropsandState>
+      {/* <PropsandState name="Bunty" age={99}></PropsandState> */}
+      {/* <Onchange /> */}
+      <ToggleLogin />
     </>
   )
 }
