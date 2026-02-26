@@ -2,9 +2,14 @@
 // import React1 from "./Components/React1"
 
 // import ChildrenClassProps from "./Props/ChildrenClassProps"
-import Onchange from "./Props/Onchange"
-import { PropsandState } from "./Props/PropsandState"
-import ToggleLogin from "./Props/ToggleLogin"
+import Ifelse from "./ClassConditionalRendering/Ifelse"
+import Top from "./ClassConditionalRendering/Top"
+// import ConditionalRendering from "./ConditionalRendering/ConditionalRendering1"
+// import LogicalAnd from "./ConditionalRendering/LogicalAnd"
+// import { TernaryOperator } from "./ConditionalRendering/TernaryOperator"
+// import Onchange from "./Props/Onchange"
+// import { PropsandState } from "./Props/PropsandState"
+// import ToggleLogin from "./Props/ToggleLogin"
 // import ChildrenProps from "./Props/ChildrenProps"
 // import { ClassComponentProps } from "./Props/ClassComponentProps"
 // import FunctionalProps from "./Props/FunctionalProps"
@@ -63,7 +68,12 @@ function App() {
       <ChildrenClassProps><div style={{color:"red", backgroundColor:"yellow", textAlign:"Center", fontSize:"30px"}}><h1>Today is Tuesday</h1></div></ChildrenClassProps> */}
       {/* <PropsandState name="Bunty" age={99}></PropsandState> */}
       {/* <Onchange /> */}
-      <ToggleLogin />
+      {/* <ToggleLogin /> */}
+      {/* <ConditionalRendering /> */}
+      {/* <TernaryOperator /> */}
+      {/* <LogicalAnd /> */}
+      {/* <Ifelse booleanvalue = {false}/> */}
+      <Top value = {true}/>
     </>
   )
 }
