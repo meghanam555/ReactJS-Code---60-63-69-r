@@ -2,8 +2,9 @@
 // import React1 from "./Components/React1"
 
 // import ChildrenClassProps from "./Props/ChildrenClassProps"
-import Ifelse from "./ClassConditionalRendering/Ifelse"
-import Top from "./ClassConditionalRendering/Top"
+// import Ifelse from "./ClassConditionalRendering/Ifelse"
+// import Top from "./ClassConditionalRendering/Top"
+import ConditionalStyling from "./ConditionalStyling/ConditionalStyling"
 // import ConditionalRendering from "./ConditionalRendering/ConditionalRendering1"
 // import LogicalAnd from "./ConditionalRendering/LogicalAnd"
 // import { TernaryOperator } from "./ConditionalRendering/TernaryOperator"
@@ -73,7 +74,8 @@ function App() {
       {/* <TernaryOperator /> */}
       {/* <LogicalAnd /> */}
       {/* <Ifelse booleanvalue = {false}/> */}
-      <Top value = {true}/>
+      {/* <Top value = {true}/> */}
+      <ConditionalStyling />
     </>
   )
 }
