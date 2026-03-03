@@ -1,10 +1,12 @@
 // import Javascriptusage from "./Components/Javascriptusage"
 // import React1 from "./Components/React1"
 
+import { MountingPhase } from "./LifeCycleMethods/MountingPhase";
+
 // import ChildrenClassProps from "./Props/ChildrenClassProps"
 // import Ifelse from "./ClassConditionalRendering/Ifelse"
-// import Top from "./ClassConditionalRendering/Top"
-import ConditionalStyling from "./ConditionalStyling/ConditionalStyling"
+// // import Top from "./ClassConditionalRendering/Top"
+// import ConditionalStyling from "./ConditionalStyling/ConditionalStyling"
 // import ConditionalRendering from "./ConditionalRendering/ConditionalRendering1"
 // import LogicalAnd from "./ConditionalRendering/LogicalAnd"
 // import { TernaryOperator } from "./ConditionalRendering/TernaryOperator"
@@ -75,7 +77,8 @@ function App() {
       {/* <LogicalAnd /> */}
       {/* <Ifelse booleanvalue = {false}/> */}
       {/* <Top value = {true}/> */}
-      <ConditionalStyling />
+      {/* <ConditionalStyling /> */}
+        <MountingPhase />
     </>
   )
 }
