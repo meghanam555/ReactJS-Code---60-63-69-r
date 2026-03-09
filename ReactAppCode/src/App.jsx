@@ -1,6 +1,9 @@
 // import Javascriptusage from "./Components/Javascriptusage"
 // import React1 from "./Components/React1"
 
+import MountingPhase from "./LifeCycleFunctional/MountingPhase"
+import UnmountingPhases1234 from "./LifeCycleFunctional/UnmountingPhases1234"
+import UpdatingPhase123 from "./LifeCycleFunctional/UpdatingPhase123"
 import MountingPhase1 from "./LifeCycleMethods/MountingPhase1"
 import UnmountingPhase from "./LifeCycleMethods/UnmountingPhase"
 import { UpdatingPhase } from "./LifeCycleMethods/UpdatingPhase"
@@ -88,7 +91,10 @@ function App() {
         {/* <MountingPhase /> */}
        {/* <MountingPhase1 />  */}
        {/* <UpdatingPhase /> */}
-       <UnmountingPhase />
+       {/* <UnmountingPhase /> */}
+       {/* <MountingPhase /> */}
+       {/* <UpdatingPhase123 /> */}
+       <UnmountingPhases1234 />
     </>
   )
 }
