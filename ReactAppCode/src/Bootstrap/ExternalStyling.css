@@ -1,0 +1,15 @@
+.coloring{
+    color: blue;
+    background-color:  yellow;
+}
+.aligning{
+    text-align: center;
+    font-size: larger ;
+}
+.valuing{
+    border: 10px blue;
+    width: 300px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+}

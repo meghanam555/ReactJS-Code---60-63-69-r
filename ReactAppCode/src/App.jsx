@@ -1,12 +1,30 @@
 // import Javascriptusage from "./Components/Javascriptusage"
 // import React1 from "./Components/React1"
 
-import MountingPhase from "./LifeCycleFunctional/MountingPhase"
-import UnmountingPhases1234 from "./LifeCycleFunctional/UnmountingPhases1234"
-import UpdatingPhase123 from "./LifeCycleFunctional/UpdatingPhase123"
-import MountingPhase1 from "./LifeCycleMethods/MountingPhase1"
-import UnmountingPhase from "./LifeCycleMethods/UnmountingPhase"
-import { UpdatingPhase } from "./LifeCycleMethods/UpdatingPhase"
+// import { Route, Routes, Link } from "react-router-dom"
+// import BasicExample from "./Bootstrap/BasicExample"
+// import Bootstrap from "./Bootstrap/Bootstrap"
+// import ReactBootstrap from "./Bootstrap/ReactBootstrap"
+// import UtilityStyling from "./Bootstrap/UtilityStyling"
+// import MountingPhase from "./LifeCycleFunctional/MountingPhase"
+// import UnmountingPhases1234 from "./LifeCycleFunctional/UnmountingPhases1234"
+// import UpdatingPhase123 from "./LifeCycleFunctional/UpdatingPhase123"
+// import MountingPhase1 from "./LifeCycleMethods/MountingPhase1"
+// import UnmountingPhase from "./LifeCycleMethods/UnmountingPhase"
+// import { UpdatingPhase } from "./LifeCycleMethods/UpdatingPhase"
+// import Home from "./ReactRouter/Home"
+// import About from "./ReactRouter/About"
+// import ContactUs from "./ReactRouter/ContactUs"
+// import UserProfile from "./ReactRouter/UserProfile"
+// import UseNavigation from "./ReactRouter/UseNavigation"
+// import UseLocation from "./ReactRouter/UseLocation"
+// import StateUplifting from "./StateUpliftingandPropDrilling/StateUplifting"
+// import GrandParent from "./StateUpliftingandPropDrilling/GrandParent"
+// import Context from "./ContextAPI/Context"
+import CounterApplication from "./CustomHooks/CounterApplication"
+import ControlledForms from "./Forms/ControlledForms"
+import UseRefhook from "./Forms/UseRefhook"
+import LazyLoading from "./LazyLoading/LazyLoading"
 
 
 
@@ -94,7 +112,43 @@ function App() {
        {/* <UnmountingPhase /> */}
        {/* <MountingPhase /> */}
        {/* <UpdatingPhase123 /> */}
-       <UnmountingPhases1234 />
+       {/* <UnmountingPhases1234 /> */}
+       {/* <Bootstrap /> */}
+       {/* <BasicExample />
+       <ReactBootstrap />
+       <ReactBootstrap />
+       <ReactBootstrap />
+       <ReactBootstrap />
+       <ReactBootstrap /> */}
+       {/* <UtilityStyling /> */}
+       {/* <div>
+        <nav>
+          <Link to="/">Home Page</Link> | <Link to="/about">About Page</Link> | <Link to="/contactUs">Contact Us for details</Link>
+          
+        </nav>
+        <Routes>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/contactUs" element={<ContactUs />}></Route>
+        </Routes>
+       </div> */}
+       {/* <div>
+        <nav>
+          <Link to="/user/1">User 1</Link> | <Link to="/user/2">User 2</Link> | <Link to="/user/3">User 3</Link>
+        </nav>
+        <Routes>
+          <Route path="/user/:id" element={<UserProfile />}></Route>
+        </Routes>
+       </div> */}
+       {/* <UseNavigation /> */}
+       {/* <UseLocation /> */}
+       {/* <StateUplifting /> */}
+       {/* <GrandParent /> */}
+       {/* <Context /> */}
+       {/* <ControlledForms /> */}
+       {/* <UseRefhook /> */}
+       {/* <LazyLoading /> */}
+       <CounterApplication />
     </>
   )
 }
