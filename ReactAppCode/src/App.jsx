@@ -22,6 +22,9 @@
 // import GrandParent from "./StateUpliftingandPropDrilling/GrandParent"
 // import Context from "./ContextAPI/Context"
 import CounterApplication from "./CustomHooks/CounterApplication"
+import AxiosData from "./FetchingData/AxiosData"
+
+import FetchingAPI from "./FetchingData/FetchingAPI"
 import ControlledForms from "./Forms/ControlledForms"
 import UseRefhook from "./Forms/UseRefhook"
 import LazyLoading from "./LazyLoading/LazyLoading"
@@ -148,7 +151,9 @@ function App() {
        {/* <ControlledForms /> */}
        {/* <UseRefhook /> */}
        {/* <LazyLoading /> */}
-       <CounterApplication />
+       {/* <CounterApplication /> */}
+       {/* <FetchingAPI /> */}
+       <AxiosData />
     </>
   )
 }
